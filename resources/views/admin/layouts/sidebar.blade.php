@@ -113,18 +113,7 @@
                             </li>
                         </ul>
                     </li>
-                   <!--  <li>
-                        <a href="#" onClick="return false;" class="menu-toggle">
-                            <i class="menu-icon ti-wallet"></i>
-                            <span>Notification Settings</span>
-                        </a>
-                        <ul class="ml-menu">
-                            <li>
-                                <a href="pages/notification/sms-on.html"> SMS On </a>
-                            </li>
-                            
-                        </ul>
-                    </li>
+                   
                     <li>
                         <a href="#" onClick="return false;" class="menu-toggle">
                             <i class="menu-icon ti-headphone"></i>
@@ -132,11 +121,9 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="pages/report/export.html">Export</a>
+                                <a href="{{ route('reports.index') }}">Visit Reports</a>
                             </li>
-                            <li>
-                                <a href="pages/report/import.html">Import</a>
-                            </li>
+                           
                         </ul>
                     </li>
                     <li>
@@ -149,6 +136,9 @@
                                 <a href="pages/accounts/income.html"> Additional logs</a>
                             </li>
                             <li>
+                                <a href="{{ route('notification.index') }}"> Notification Settings </a>
+                            </li>
+                            <li>
                                 <a href="pages/accounts/expense.html">  Panel settings</a>
                             </li>
                             <li>
@@ -158,7 +148,7 @@
                                 <a href="pages/accounts/invoice.html">  Can turn off feature take picture of visitor</a>
                             </li>
                         </ul>
-                    </li> -->
+                    </li>
                 </ul>
             </div>
             <!-- #Menu -->

@@ -1,4 +1,5 @@
 @extends('admin.layouts.master')
+ @section('title', 'Add Department')
  @section('content')
 <section class="content">
         <div class="container-fluid">

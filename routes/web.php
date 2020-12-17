@@ -29,6 +29,8 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
 	Route::resource('visitor_type', 'admin\VisitorTypeController')->name('*','visitor_type');
 	Route::resource('visit_purpose', 'admin\VisitPurposeController')->name('*','visit_purpose');
 	Route::resource('visit_management', 'admin\VisitManagementControllerr')->name('*','visit_management');
+	Route::resource('reports', 'admin\ReportsController')->name('*','reports');
+	Route::resource('notification', 'admin\NotificationController')->name('*','notification');
 	Route::post('getupdatedata', 'admin\VisitManagementControllerr@getupdatedata')->name('getupdatedata');
 
 	Route::resource('visitors', 'admin\VisitorController')->name('*','visitors');

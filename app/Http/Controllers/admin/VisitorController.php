@@ -10,6 +10,7 @@ use App\VisitorType;
 use App\VisitPurpose;
 use App\User;
 use App\Visits;
+use App\Notification;
 use QRCode;
 use File;
 use Mail;
